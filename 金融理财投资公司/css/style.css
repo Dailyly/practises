@@ -1,0 +1,205 @@
+/*css reset 样式重置*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ul, ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+body{
+	font-size: 14px;
+}
+/*header 开始*/
+#header{
+	height: 100px;
+	position: relative;
+}
+#logo{
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+}
+#search-box{
+	width: 262px;
+	height: 30px;
+	background: #00f;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	left: 50%;
+	margin-left: -131px;
+	border: 1px solid #EA3939;
+}
+#search-txt{
+	width: 212px;
+	height: 30px;
+	border: 0;
+	float: left;
+	text-indent: 10px;
+	outline: none;
+	line-height: 30px;
+}
+#search-btn{
+	width: 50px;
+	height: 30px;
+	border: 0;
+	float: left;
+	background: #EA3939;
+	color: #fff;
+}
+#search-result{
+	border: 1px solid #EA3939;
+	width: 212px;
+	position: absolute;
+	top: 30px;
+	left: -1px;
+	background: #fff;
+	display: none;
+}
+#search-result li{
+	height: 25px;
+	border-bottom: 1px dotted #ccc;
+	line-height: 25px;
+	text-indent: 5px;
+	cursor: pointer;
+}
+#search-result li:hover{
+	background: #ccc;
+}
+#search-result .last{
+	border: 0;
+}
+#share{
+	width: 210px;
+	height: 30px;
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	margin-top: -15px;
+}
+#share li{
+	float: left;
+	margin-right: 60px;
+}
+#share .qq{
+	background: url('../img/top_qq.jpg') 
+}
+#share .qq:hover{
+	background: url('../img/top_qq_h.jpg') 
+}
+#share .weibo{
+	background: url('../img/top_weib.jpg') 
+}
+#share .weibo:hover{
+	background: url('../img/top_weib_h.jpg') 
+}
+#share .mail{
+	background: url('../img/top_you.jpg') 
+}
+#share .mail:hover{
+	background: url('../img/top_you_h.jpg') 
+}
+
+#share a{
+	width: 30px;
+	height: 30px;
+	background: #f00;
+	float: left;
+}
+/*header 结束*/
+/*nav 开始*/
+#nav{
+	/*width: 1100px;*/
+	height: 50px;
+	background: #f00;
+}
+#nav ul{
+	height: 50px;
+}
+#nav li{
+	float: left;
+	width: 135px;
+	height: 50px;
+}
+#nav a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+}
+#nav a:hover{
+	background: #A61C00;
+}
+/*nav 结束*/
+/*banner 开始*/
+#banner{
+	height: 390px;
+	background: url(../img/banner1.jpg) no-repeat 50% 50%;
+}
+/*banner 结束*/
+/*footer 开始*/
+#footer{
+	height: 180px;
+	background: #666;
+	margin-top: 20px;
+	position: relative;
+}
+#footer .tel{
+	width: 500px;
+	height: 135px;
+	float: left;
+}
+#footer .tel img{
+	position: absolute;
+	top: -10px;
+}
+#footer .follow{
+	width: 500px;
+	height: 135px;
+	float: left;
+}
+#footer .copyright{
+	clear: both;
+	text-align: center;
+}
+/*footer 结束*/
+/*go-top 开始*/
+#go-top{
+	position: fixed;
+	right: 10px;
+	bottom: 100px;
+	width: 25px;
+	height: 25px;
+	background: url(../img/gotop.png) no-repeat -25px 0;
+}
+#go-top:hover{
+	background-position: 0 0;
+}
+/*go-top 结束*/
+
+.wrap{
+	width: 1100px;
+	margin: 0 auto;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+

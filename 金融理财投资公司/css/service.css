@@ -1,0 +1,49 @@
+#tab{
+	height: 50px;
+}
+#tab li{
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background:  #F1F1F1;
+	float: left;
+}
+
+#tab .selected{
+	background: #f00;
+	color: #fff;
+}
+#tab-content{
+	height: 366px;
+}
+#tab-content .content-box {
+	width: 267px;
+	height: 366px;
+	border: 1px red solid;
+	float: left;
+	margin-right: 20px;
+	background-repeat: no-repeat;
+	background-position: center
+}
+#tab-content .content-box:hover{
+	border: 1px #000 solid;
+
+}
+#tab-content .hongkong{
+	background-image: url(../img/service/13095415.png);
+}
+#tab-content .change{
+	background-image: url(../img/service/13095526.png);
+}
+#tab-content .regist{
+	background-image: url(../img/service/13095704.png);
+	
+}
+
+
+
+
+
+
+

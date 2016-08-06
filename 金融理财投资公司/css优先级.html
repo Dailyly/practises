@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#aa{
+			width: 200px;
+			height: 200px;
+			background: #f00;
+		}
+		.bb{
+			background: #0f0;
+		}
+		div{
+			background: #00f;
+		}
+		.dd{
+			background: #ccc;
+		}
+		#cc .dd{
+			background: #f00;
+		}
+		.ff{
+			border: 5px solid #000;
+			background: #0f0;
+		}
+		.ee{
+			width: 200px;
+			height: 200px;
+			background: #f00;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="aa" class="bb" style="background: yellow;"></div>
+
+	<!-- 权重值：内联>id(100)>class(10)>tag(1) -->
+
+	<div id="cc">
+		<h1 class="dd">haha</h1>
+	</div>
+
+	<!-- 多类选择器 -->
+
+	<div class="ee ff"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
